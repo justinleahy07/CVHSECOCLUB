@@ -6,6 +6,10 @@ body, h1, h2, h3, p, ul, li, a {
     box-sizing: border-box;
 }
 
+h3 {
+    text-color: #ffffff
+}
+        
 body {
     line-height: 1.6;
     background-color: #F5F5F5;
@@ -23,6 +27,7 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
+
 
 /* Navigation styling */
 nav {
@@ -48,7 +53,16 @@ nav ul li a {
     transition: color 0.3s ease-in-out;
 }
 
-nav ul li a:hover {;
+nav ul li a:hover {
+    color: #E74C3C;
+}
+
+/* Content styling */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: left;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -84,9 +98,9 @@ a:hover {
 /* Footer styling */
 footer {
     background-color: #2C3E50;
+    color: #ffffff;
     text-align: center;
-    padding: 20px 0
-    text-color: #ffffff;
+    padding: 20px 0;
 }
 
 footer p {
